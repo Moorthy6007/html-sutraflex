@@ -82,7 +82,7 @@ html {
   padding: 10px;
   border-radius: 20px;
   
-  background: linear-gradient(to bottom, #b2c3eb 10%, #4a90e2 60%, #357ABD 100%);
+  background: linear-gradient(to bottom, #b2c3eb 50%, #bad2e1 100%);
   border: 1px solid #ccc;
   text-align: left;
   vertical-align: top; /* Aligns the divs to the top */
@@ -91,7 +91,7 @@ html {
   min-height: auto; 
 }
  
- 
+/* background: linear-gradient(to bottom, #b2c3eb 10%, #4a90e2 60%, #5498db 100%); */ 
 
 
 
@@ -114,16 +114,21 @@ p, li {
 a {
   font-family: Montserrat;
   font-size: 1.5em;
-  color: #c5cad4;
+  color: #0c0d0d;
 }
 /* banner */
 img {
   height: auto;
   width: 100%;
   object-fit: cover;
-  image-resolution: 1000dpi;
+ 
   } 
   
+  .banner-img{
+    height: auto;
+    width: 100%;
+    image-resolution: 10000dpi;
+  }
 
 .mobile{
   height: 30px;
